@@ -1,5 +1,7 @@
 ## Welcome to NicTool
 
+- [Dictionary](Dictionary) of DNS terms
+
 The NicTool content starts on the [wiki](https://github.com/NicTool/web/wiki) and some of that content will make its way over here.
 
 
