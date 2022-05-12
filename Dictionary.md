@@ -18,3 +18,8 @@
     - examples: A, MX, SOA, PTR
 - **rdata**: resource data. The contents vary widely by RR type
     - examples: A records have an address, CNAME records bear a cname target, NS records point to nameservers (nsdname).
+
+- **domain**: an administrative boundary within the domain name tree.
+- **subdomain**: a domain contained by another domain. (ex: c.b.a is contained by b.a.)
+- **node**: a leaf or interior node in the domain name tree. (RFC 1034, 3.1)
+- **domain name**: the domain name of a node is the list of labels from the node to the root of the tree. A domain name identifies a node. (RFC 1035 3.6)
