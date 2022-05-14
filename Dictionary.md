@@ -5,6 +5,7 @@
     - example: www.example.com 3600 IN A 192.0.2.127
 - **owner** / name:
     - a node in the domain name tree
+    - for a specific RR, _owner_ is the domain name where the RR is found. (RFC 1034 3.6)
     - consists of a sequence of labels
     - format: node.zone.tld.
         - the right most label is null, aka the root
